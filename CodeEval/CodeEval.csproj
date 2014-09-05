@@ -49,6 +49,7 @@
     <Compile Include="PrimePalindrome\PrimePalindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumOfIntegers\SumOfIntegers.cs" />
     <Compile Include="SumOfPrimes\SumOfPrimes.cs" />
   </ItemGroup>
   <ItemGroup>
