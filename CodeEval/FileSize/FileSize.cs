@@ -5,6 +5,7 @@ namespace CodeEval.FileSize
 {
     /// <summary>
     /// File Size Challenge
+    /// Difficulty: Easy
     /// Description: Print the size of a file in bytes
     /// Problem Statement: https://www.codeeval.com/open_challenges/26/
     /// </summary>

@@ -5,6 +5,7 @@ namespace CodeEval.LongestLines
 {
     /// <summary>
     /// Longest Lines Challenge
+    /// Difficulty: Medium
     /// Description: find the 'N' longest lines and return them from longest to smallest.
     /// Problem Statement: https://www.codeeval.com/open_challenges/2/
     /// </summary>

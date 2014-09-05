@@ -4,6 +4,7 @@ namespace CodeEval.OddNumbers
 {
     /// <summary>
     /// Odd Numbers Challenge
+    /// Difficulty: Easy
     /// Description: Print the odd numbers from 1 to 99
     /// Problem Statement: https://www.codeeval.com/open_challenges/25/
     /// </summary>

@@ -5,6 +5,7 @@ namespace CodeEval.SumOfPrimes
 {
     /// <summary>
     /// Sum of Primes Challenge
+    /// Difficulty: Easy
     /// Description: determine the sum of the first 1000 prime numbers.
     /// Problem Statement: https://www.codeeval.com/open_challenges/4/
     /// </summary>

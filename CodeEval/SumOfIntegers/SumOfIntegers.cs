@@ -5,10 +5,11 @@ namespace CodeEval.SumOfIntegers
 {
     /// <summary>
     /// Sum of Integers Challenge
+    /// Difficulty: Easy
     /// Description: Print out the sum of integers read from a file
     /// Problem Statement: https://www.codeeval.com/open_challenges/24/
     /// </summary>
-    class FizzBuzz
+    class SumOfIntegers
     {
         /// <summary>
         /// Entry Point for the Challenge
