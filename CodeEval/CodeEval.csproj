@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileSize\FileSize.cs" />
     <Compile Include="FizzBuzz\FizzBuzz.cs" />
     <Compile Include="LongestLines\LongestLines.cs" />
     <Compile Include="PrimePalindrome\PrimePalindrome.cs" />
