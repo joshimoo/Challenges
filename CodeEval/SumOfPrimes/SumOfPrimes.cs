@@ -10,19 +10,24 @@ namespace CodeEval.SumOfPrimes
     /// </summary>
     class SumOfPrimes
     {
-        // Entry Point for the Challenge
+        /// <summary>
+        /// Entry Point for the Challenge
+        /// </summary>
+        /// <param name="args">Command line Arguments</param>
         public static void Main(string[] args)
         {
             // No input in this challenge
-            long sum = SumPrimes(1000);
+            int sum = SumPrimes(1000);
             Console.WriteLine(sum);
         }
 
-        // Simple Trial Division Algorithm
-        static long SumPrimes(int n = 1000)
+        /// <summary>
+        /// Simple Trial Division Algorithm
+        /// </summary>
+        static int SumPrimes(int n)
         {
-            var primes = new List<long>(n) { 2 };
-            long sum = 2;
+            var primes = new List<int>(n) { 2 };
+            int sum = 2;
 
             // Only test the odd numbers since all others are dividable by 2.
             for (int i = 3; primes.Count < n; i += 2)
@@ -50,8 +55,6 @@ namespace CodeEval.SumOfPrimes
 
             return sum;
         }
-
-
 
     }
 }

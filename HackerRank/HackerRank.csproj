@@ -44,10 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IsFibo.cs" />
+    <Compile Include="IsFibo\IsFibo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SherlockAndArray.cs" />
+    <Compile Include="SherlockAndArray\SherlockAndArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
