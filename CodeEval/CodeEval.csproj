@@ -47,6 +47,7 @@
     <Compile Include="FileSize\FileSize.cs" />
     <Compile Include="FizzBuzz\FizzBuzz.cs" />
     <Compile Include="LongestLines\LongestLines.cs" />
+    <Compile Include="OddNumbers\OddNumbers.cs" />
     <Compile Include="PrimePalindrome\PrimePalindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
