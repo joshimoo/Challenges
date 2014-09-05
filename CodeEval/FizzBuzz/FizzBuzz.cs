@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeEval.FizzBuzz
 {
@@ -14,7 +11,10 @@ namespace CodeEval.FizzBuzz
     /// </summary>
     class FizzBuzz
     {
-        // Entry Point for the Challenge
+        /// <summary>
+        /// Entry Point for the Challenge
+        /// </summary>
+        /// <param name="args">Command line Arguments</param>
         static void Main(string[] args)
         {
             string[] lines = File.ReadAllLines(args[0]);
