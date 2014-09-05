@@ -10,7 +10,8 @@ namespace CodeEval
     {
         static void Main(string[] args)
         {
-            SumOfPrimes.SumOfPrimes.Main(args);
+            // Test Run
+            PrimePalindrome.PrimePalindrome.Main(args);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

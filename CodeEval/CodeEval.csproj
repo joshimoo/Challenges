@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FizzBuzz\FizzBuzz.cs" />
+    <Compile Include="LongestLines\LongestLines.cs" />
+    <Compile Include="PrimePalindrome\PrimePalindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SumOfPrimes\SumOfPrimes.cs" />
