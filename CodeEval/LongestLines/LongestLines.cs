@@ -17,7 +17,7 @@ namespace CodeEval.LongestLines
         /// That way we only need to store and sort n lines.
         /// </summary>
         /// <param name="args">Command line Arguments</param>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string[] lines = File.ReadAllLines(args[0]);
             int n = int.Parse(lines[0]);

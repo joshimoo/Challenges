@@ -15,7 +15,7 @@ namespace CodeEval.SumOfIntegers
         /// Entry Point for the Challenge
         /// </summary>
         /// <param name="args">Command line Arguments</param>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string[] lines = File.ReadAllLines(args[0]);
             int sum = 0;
@@ -24,7 +24,7 @@ namespace CodeEval.SumOfIntegers
         }
 
         /* Line by line reading exmaple
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int sum = 0;
             using (StreamReader reader = File.OpenText(args[0]))

@@ -14,7 +14,7 @@ namespace CodeEval.OddNumbers
         /// Entry Point for the Challenge
         /// </summary>
         /// <param name="args">Command line Arguments</param>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // No input in this challenge
             for (int i = 1; i <= 99; i += 2)

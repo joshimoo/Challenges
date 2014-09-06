@@ -16,7 +16,7 @@ namespace CodeEval.FizzBuzz
         /// Entry Point for the Challenge
         /// </summary>
         /// <param name="args">Command line Arguments</param>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string[] lines = File.ReadAllLines(args[0]);
             foreach (var line in lines)
