@@ -12,9 +12,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            string inputFile = "PlayWithDNA/input.txt";
-            string[] input = new string[] { inputFile };
-            PlayWithDNA.PlayWithDNA.Main(input);
+            var input = new string[] { "RemoveCharacters/input.txt" };
+            RemoveCharacters.RemoveCharacters.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
