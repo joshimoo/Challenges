@@ -56,6 +56,7 @@
     <Compile Include="RemoveCharacters\RemoveCharacters.cs" />
     <Compile Include="SumOfIntegers\SumOfIntegers.cs" />
     <Compile Include="SumOfPrimes\SumOfPrimes.cs" />
+    <Compile Include="TrailingString\TrailingString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
