@@ -54,6 +54,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveCharacters\RemoveCharacters.cs" />
+    <Compile Include="ReverseWords\ReverseWords.cs" />
     <Compile Include="SumOfIntegers\SumOfIntegers.cs" />
     <Compile Include="SumOfPrimes\SumOfPrimes.cs" />
     <Compile Include="TrailingString\TrailingString.cs" />
