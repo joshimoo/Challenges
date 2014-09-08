@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
     <Compile Include="Easy\FileSize\FileSize.cs" />
     <Compile Include="Easy\FizzBuzz\FizzBuzz.cs" />
     <Compile Include="Easy\JugglingWithZeros\JugglingWithZeros.cs" />
