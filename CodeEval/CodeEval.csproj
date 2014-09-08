@@ -44,30 +44,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileSize\FileSize.cs" />
-    <Compile Include="FizzBuzz\FizzBuzz.cs" />
-    <Compile Include="LongestLines\LongestLines.cs" />
-    <Compile Include="NumberPairs\NumberPairs.cs" />
-    <Compile Include="OddNumbers\OddNumbers.cs" />
-    <Compile Include="PlayWithDNA\PlayWithDNA.cs" />
-    <Compile Include="PrimePalindrome\PrimePalindrome.cs" />
+    <Compile Include="Easy\FileSize\FileSize.cs" />
+    <Compile Include="Easy\FizzBuzz\FizzBuzz.cs" />
+    <Compile Include="Medium\LongestLines\LongestLines.cs" />
+    <Compile Include="Medium\NumberPairs\NumberPairs.cs" />
+    <Compile Include="Easy\OddNumbers\OddNumbers.cs" />
+    <Compile Include="Hard\PlayWithDNA\PlayWithDNA.cs" />
+    <Compile Include="Easy\PrimePalindrome\PrimePalindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RemoveCharacters\RemoveCharacters.cs" />
-    <Compile Include="ReverseAndAdd\ReverseAndAdd.cs" />
-    <Compile Include="ReverseWords\ReverseWords.cs" />
-    <Compile Include="SumOfIntegers\SumOfIntegers.cs" />
-    <Compile Include="SumOfPrimes\SumOfPrimes.cs" />
-    <Compile Include="TrailingString\TrailingString.cs" />
+    <Compile Include="Medium\RemoveCharacters\RemoveCharacters.cs" />
+    <Compile Include="Medium\ReverseAndAdd\ReverseAndAdd.cs" />
+    <Compile Include="Easy\ReverseWords\ReverseWords.cs" />
+    <Compile Include="Easy\SumOfIntegers\SumOfIntegers.cs" />
+    <Compile Include="Easy\SumOfPrimes\SumOfPrimes.cs" />
+    <Compile Include="Medium\TrailingString\TrailingString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PlayWithDNA\input.txt">
+    <Content Include="Hard\PlayWithDNA\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="RemoveCharacters\input.txt">
+    <Content Include="Medium\RemoveCharacters\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

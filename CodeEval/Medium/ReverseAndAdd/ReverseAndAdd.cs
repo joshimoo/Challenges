@@ -9,7 +9,7 @@ namespace CodeEval.ReverseAndAdd
     /// Description: choose a number, reverse its digits and add it to the original. If the sum is not a palindrome, repeat this procedure
     /// Problem Statement: https://www.codeeval.com/open_challenges/45/
     /// </summary>
-    class ReverseWords
+    class ReverseAndAdd
     {
         /// <summary>
         /// Entry Point for the Challenge
@@ -35,12 +35,15 @@ namespace CodeEval.ReverseAndAdd
 
         /// <summary>
         /// Compares the Integer against itself by using the Fast Integer Reversal
+        /// TODO: The Integer Reversal could overflow, therefore I might want todo Digit by Digit comparison.
+        /// For the Challenge it does not matter.
         /// </summary>
         static bool IsPalindrome(int input) { return input == Reverse(input); }
 
         /// <summary>
         /// Fast Integer Reversal
         /// Works on positive / negative base 10 numbers
+        /// TODO: Could overflow, might want todo this in a checked context
         /// </summary>
         static int Reverse(int number)
         {
