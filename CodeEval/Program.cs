@@ -12,8 +12,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "RemoveCharacters/input.txt" };
-            RemoveCharacters.RemoveCharacters.Main(input);
+            var input = new string[] { "Easy/JugglingWithZeros/input.txt" };
+            JugglingWithZeros.JugglingWithZeros.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
