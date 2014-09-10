@@ -50,43 +50,17 @@ namespace CodeEval.TextToNumber
                 Numbers selector = (Numbers)Enum.Parse(typeof(Numbers), split[i], true);
                 int number = (int)selector;
 
-                if (selector == Numbers.hundred)
-                {
-                    // nine hundred ninety nine thousand
-                    // four hundred thirty five
-                    // four hundred ninety nine thousand six hundred twenty five
-
-                    // multiply the multiplier by hundred since, hundred can be a part of another multiplier (nine hundred thousand)
-                    multiplier *= number;
-                }
-                else if (selector == Numbers.thousand)
-                {
-                    // one thousand two hundred thirty four
-                    // forty five thousand
-
-                    // set the multiplier to thousand, since its currently the highest possible
-                    multiplier = number;
-                }
-                else if (selector == Numbers.million)
-                {
-                    // nine hundred fourty five million two hundred forty five thousand six hundred twenty two
-                    // 1 000 000 * 5 + 1 000 000 * 40 + 1 000 000 * 100 + 100 000 000 * 9
-
-                    // set the multiplier to million, since its currently the highest possible
-                    multiplier = number;
-                }
-                else if (selector == Numbers.negative)
-                {
-                    sum *= number;
-                }
-                else
-                {
-                    // regular numbers
-                    sum += multiplier * number;
-                }
+                // hundred = multiply the multiplier by hundred since, hundred can be a part of another multiplier (nine hundred thousand)
+                // thousand, million, billion = set the multiplier to thousand/million/billion, since its currently the highest possible
+                if (selector == Numbers.hundred) { multiplier *= number; }
+                else if (selector == Numbers.thousand) { multiplier = number; }
+                else if (selector == Numbers.million) { multiplier = number; }
+                else if (selector == Numbers.negative) { sum *= number; }
+                else { sum += multiplier * number; }
             }
 
             return sum;
         }
+
     }
 }
