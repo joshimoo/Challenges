@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HackerRank.IsFibo
+namespace HackerRank.Algorithms.Warmup.IsFibo
 {
     /// <summary>
     /// Is Fibo Challenge

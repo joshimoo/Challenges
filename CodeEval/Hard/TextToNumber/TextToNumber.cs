@@ -57,7 +57,7 @@ namespace CodeEval.TextToNumber
 
             for (int i = split.Length - 1; i >= 0; i--)
             {
-                // Could instead do my own switch case comparison, but I like this better =)
+                // Enum.Parse is slower (reflection) then manually parsing via Dictionary
                 Numbers selector = (Numbers)Enum.Parse(typeof(Numbers), split[i], true);
                 int number = (int)selector;
 

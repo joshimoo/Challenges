@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace HackerRank.SherlockAndArray
+namespace HackerRank.Algorithms.ArraysAndSorting.SherlockAndArray
 {
     /// <summary>
     /// Sherlock and Array Challenge
