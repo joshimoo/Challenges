@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Warmup\FindDigits\FindDigits.cs" />
+    <Compile Include="Algorithms\Warmup\GameOfThrones1\GameOfThrones1.cs" />
     <Compile Include="Algorithms\Warmup\IsFibo\IsFibo.cs" />
     <Compile Include="Algorithms\Warmup\SherlockAndSquares\SherlockAndSquares.cs" />
     <Compile Include="Program.cs" />
