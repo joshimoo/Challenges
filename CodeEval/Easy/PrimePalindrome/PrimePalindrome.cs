@@ -46,11 +46,10 @@ namespace CodeEval.PrimePalindrome
                     }
                 }
 
-                // NOTE: Could check here if if this is a palindrome, but it's more effective to check the final primes list backwards, since we are only looking for the biggest prime palindrome
                 if (isPrime) { primes.Add(i); }
             }
 
-            // Checking the list backwards since that will reduce the required palindrome check count
+            // NOTE: Checking the list backwards since that will reduce the required palindrome check count
             for (int i = primes.Count - 1; i >= 0; i--)
             {
                 if (IsPalindrome(primes[i])) { return primes[i]; }

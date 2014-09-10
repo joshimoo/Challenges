@@ -28,11 +28,22 @@ namespace CodeEval.TextToNumber
         /// <param name="args">Command line Arguments</param>
         public static void Main(string[] args)
         {
+            // 5 mb memory, costs me 12,5% of the score points
             string[] lines = File.ReadAllLines(args[0]);
             foreach (var line in lines)
             {
                 Console.WriteLine(GetNumber(line));
             }
+
+            /* wtf line by line increases my memory consumption
+            using (StreamReader reader = File.OpenText(args[0]))
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+                    if (!String.IsNullOrEmpty(line)) { Console.WriteLine(GetNumber(line)); }
+                }
+            }*/
         }
 
         /// <summary>
