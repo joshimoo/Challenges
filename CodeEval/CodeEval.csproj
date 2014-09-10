@@ -48,6 +48,9 @@
     <Compile Include="Easy\FileSize\FileSize.cs" />
     <Compile Include="Easy\FizzBuzz\FizzBuzz.cs" />
     <Compile Include="Easy\JugglingWithZeros\JugglingWithZeros.cs" />
+    <Compile Include="Easy\MultiplesOfANumber\MultiplesOfANumber.cs" />
+    <Compile Include="Easy\SumOfDigits\SumOfDigits.cs" />
+    <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
     <Compile Include="Medium\LongestLines\LongestLines.cs" />
     <Compile Include="Medium\NumberPairs\NumberPairs.cs" />
     <Compile Include="Easy\OddNumbers\OddNumbers.cs" />
@@ -70,6 +73,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Hard\PlayWithDNA\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Hard\TextToNumber\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\RemoveCharacters\input.txt">
