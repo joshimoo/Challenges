@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeEval
 {
@@ -12,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Hard/TextToNumber/input.txt" };
-            TextToNumber.TextToNumber.Main(input);
+            var input = new string[] { "Easy/SimpleSorting/input.txt" };
+            SimpleSorting.SimpleSorting.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
