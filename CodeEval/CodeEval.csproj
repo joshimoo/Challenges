@@ -49,6 +49,7 @@
     <Compile Include="Easy\FizzBuzz\FizzBuzz.cs" />
     <Compile Include="Easy\JugglingWithZeros\JugglingWithZeros.cs" />
     <Compile Include="Easy\MultiplesOfANumber\MultiplesOfANumber.cs" />
+    <Compile Include="Easy\RollerCoaster\RollerCoaster.cs" />
     <Compile Include="Easy\SimpleSorting\SimpleSorting.cs" />
     <Compile Include="Easy\SumOfDigits\SumOfDigits.cs" />
     <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
