@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Easy/SimpleSorting/input.txt" };
-            SimpleSorting.SimpleSorting.Main(input);
+            var input = new string[] { "Easy/MultiplyLists/input.txt" };
+            MultiplyLists.MultiplyLists.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

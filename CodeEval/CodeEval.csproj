@@ -49,15 +49,18 @@
     <Compile Include="Easy\FizzBuzz\FizzBuzz.cs" />
     <Compile Include="Easy\JugglingWithZeros\JugglingWithZeros.cs" />
     <Compile Include="Easy\MultiplesOfANumber\MultiplesOfANumber.cs" />
+    <Compile Include="Easy\MultiplyLists\MultiplyLists.cs" />
     <Compile Include="Easy\RollerCoaster\RollerCoaster.cs" />
     <Compile Include="Easy\SimpleSorting\SimpleSorting.cs" />
     <Compile Include="Easy\SumOfDigits\SumOfDigits.cs" />
+    <Compile Include="Hard\LevenshteinDistance\LevenshteinDistance.cs" />
     <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
     <Compile Include="Medium\LongestLines\LongestLines.cs" />
     <Compile Include="Medium\NumberPairs\NumberPairs.cs" />
     <Compile Include="Easy\OddNumbers\OddNumbers.cs" />
     <Compile Include="Hard\PlayWithDNA\PlayWithDNA.cs" />
     <Compile Include="Easy\PrimePalindrome\PrimePalindrome.cs" />
+    <Compile Include="Medium\StackImplementation\StackImplementation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Medium\RemoveCharacters\RemoveCharacters.cs" />
@@ -74,7 +77,13 @@
     <Content Include="Easy\JugglingWithZeros\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Easy\MultiplyLists\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Easy\SimpleSorting\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Hard\LevenshteinDistance\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Hard\PlayWithDNA\input.txt">
