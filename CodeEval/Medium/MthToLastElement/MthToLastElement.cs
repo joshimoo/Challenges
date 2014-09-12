@@ -5,7 +5,7 @@ namespace CodeEval.MthToLastElement
 {
     /// <summary>
     /// Mth to last element Challenge
-    /// Difficulty: Easy
+    /// Difficulty: Medium
     /// Description: return the Mth element from the reverse of a list.
     /// Problem Statement: https://www.codeeval.com/open_challenges/10/
     /// </summary>

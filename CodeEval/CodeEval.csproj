@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\LongestWord\LongestWord.cs" />
+    <Compile Include="Easy\PenultimateWord\PenultimateWord.cs" />
     <Compile Include="Easy\SwapCase\SwapCase.cs" />
     <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
     <Compile Include="Easy\FileSize\FileSize.cs" />
@@ -56,7 +58,10 @@
     <Compile Include="Easy\SumOfDigits\SumOfDigits.cs" />
     <Compile Include="Hard\LevenshteinDistance\LevenshteinDistance.cs" />
     <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
+    <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
     <Compile Include="Medium\LongestLines\LongestLines.cs" />
+    <Compile Include="Medium\MthToLastElement\MthToLastElement.cs" />
+    <Compile Include="Medium\NumberOfOnes\NumberOfOnes.cs" />
     <Compile Include="Medium\NumberPairs\NumberPairs.cs" />
     <Compile Include="Easy\OddNumbers\OddNumbers.cs" />
     <Compile Include="Hard\PlayWithDNA\PlayWithDNA.cs" />
