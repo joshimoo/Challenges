@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\CapitalizeWords\CapitalizeWords.cs" />
+    <Compile Include="Easy\EvenNumbers\EvenNumbers.cs" />
     <Compile Include="Easy\LongestWord\LongestWord.cs" />
+    <Compile Include="Easy\Lowercase\Lowercase.cs" />
     <Compile Include="Easy\PenultimateWord\PenultimateWord.cs" />
     <Compile Include="Easy\SwapCase\SwapCase.cs" />
     <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
@@ -66,6 +69,7 @@
     <Compile Include="Easy\OddNumbers\OddNumbers.cs" />
     <Compile Include="Hard\PlayWithDNA\PlayWithDNA.cs" />
     <Compile Include="Easy\PrimePalindrome\PrimePalindrome.cs" />
+    <Compile Include="Medium\Pangrams\Pangrams.cs" />
     <Compile Include="Medium\StackImplementation\StackImplementation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
