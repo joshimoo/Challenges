@@ -47,10 +47,12 @@
     <Compile Include="Easy\CapitalizeWords\CapitalizeWords.cs" />
     <Compile Include="Easy\EvenNumbers\EvenNumbers.cs" />
     <Compile Include="Easy\HexToDecimal\HexToDecimal.cs" />
+    <Compile Include="Easy\HiddenDigits\HiddenDigits.cs" />
     <Compile Include="Easy\LongestWord\LongestWord.cs" />
     <Compile Include="Easy\Lowercase\Lowercase.cs" />
     <Compile Include="Easy\NModM\NModM.cs" />
     <Compile Include="Easy\PenultimateWord\PenultimateWord.cs" />
+    <Compile Include="Easy\RightmostChar\RightmostChar.cs" />
     <Compile Include="Easy\SwapCase\SwapCase.cs" />
     <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
     <Compile Include="Easy\FileSize\FileSize.cs" />
