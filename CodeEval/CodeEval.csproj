@@ -63,6 +63,8 @@
     <Compile Include="Easy\RollerCoaster\RollerCoaster.cs" />
     <Compile Include="Easy\SimpleSorting\SimpleSorting.cs" />
     <Compile Include="Easy\SumOfDigits\SumOfDigits.cs" />
+    <Compile Include="Easy\WordToDigit\WordToDigit.cs" />
+    <Compile Include="Hard\DigitStatistics\DigitStatistics.cs" />
     <Compile Include="Hard\LevenshteinDistance\LevenshteinDistance.cs" />
     <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
     <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
@@ -96,6 +98,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\SimpleSorting\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Hard\DigitStatistics\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Hard\LevenshteinDistance\input.txt">
