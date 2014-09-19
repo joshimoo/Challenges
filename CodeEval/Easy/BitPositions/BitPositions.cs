@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Text;
 
 namespace CodeEval.BitPositions
 {
@@ -33,5 +32,6 @@ namespace CodeEval.BitPositions
                 Console.WriteLine(r1 == r2 ? "true" : "false");
             }
         }
+
     }
 }

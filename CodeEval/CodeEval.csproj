@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\ArrayAbsurdity\ArrayAbsurdity.cs" />
+    <Compile Include="Easy\BitPositions\BitPositions.cs" />
     <Compile Include="Easy\CapitalizeWords\CapitalizeWords.cs" />
+    <Compile Include="Easy\CompressedSequence\CompressedSequence.cs" />
     <Compile Include="Easy\EvenNumbers\EvenNumbers.cs" />
     <Compile Include="Easy\HexToDecimal\HexToDecimal.cs" />
     <Compile Include="Easy\HiddenDigits\HiddenDigits.cs" />
@@ -53,6 +56,7 @@
     <Compile Include="Easy\NModM\NModM.cs" />
     <Compile Include="Easy\PenultimateWord\PenultimateWord.cs" />
     <Compile Include="Easy\RightmostChar\RightmostChar.cs" />
+    <Compile Include="Easy\SelfDescribingNumbers\SelfDescribingNumbers.cs" />
     <Compile Include="Easy\SwapCase\SwapCase.cs" />
     <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
     <Compile Include="Easy\FileSize\FileSize.cs" />
@@ -70,6 +74,7 @@
     <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
     <Compile Include="Medium\FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.cs" />
     <Compile Include="Medium\LongestLines\LongestLines.cs" />
+    <Compile Include="Medium\MinimumCoins\MinimumCoins.cs" />
     <Compile Include="Medium\MthToLastElement\MthToLastElement.cs" />
     <Compile Include="Medium\NumberOfOnes\NumberOfOnes.cs" />
     <Compile Include="Medium\NumberPairs\NumberPairs.cs" />
@@ -91,6 +96,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Easy\CompressedSequence\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Easy\JugglingWithZeros\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

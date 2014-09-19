@@ -56,10 +56,10 @@ namespace CodeEval.DigitStatistics
              * This algorithm is O(n) all the better pow calculation algorithms are O(log(n))
              * http://en.wikipedia.org/wiki/Exponentiation_by_squaring#Further_applications
              * http://en.wikipedia.org/wiki/Modular_exponentiation
-             * 
+             *
              * But since we require all exponents and not just the highest, they would be O(n * log(n))
              * Therefore my O(n) algorithm is already better. But since an O(n) algorithm is still to slow.
-             * 
+             *
              * TODO: I was thinking we need an O(1) algorithm, which I think we can get if we look at the number sequences.
              * For example:       [5] * 5 = 2[5] * 5 = 12[5] * 5 = 62[5] * 5 = 312[5]
              * Found another one: [2] * 2 = [4] * 2 = [8] * 2 = 1[6] * 2 = 3[2] * 2 = 6[4] * 2 = 12[8] * 2 = 25[6]
@@ -69,14 +69,14 @@ namespace CodeEval.DigitStatistics
              * Found another one: [7] * 7 = 4[9] * 7 = 34[3] * 7 = 240[1] * 7 = 1680[7] * 7 = 11764[9] * 7 = 82354[3] * 7 = 576480[1]
              * Found another one: [8] * 8 = 6[4] * 8 = 51[2] * 8 = 409[6] * 8 = 3276[8] * 8 = 26214[4] * 8 = 209715[2] * 8 = 1677721[6]
              * Found another one: [9] * 9 = 8[1] * 9 = 72[9] * 9 = 656[1] * 9 = 5904[9] * 9 = 53144[1]
-             * 
+             *
              * TODO: Design a function f(x,y) = x^y % 10  then plot that function foreach x[0,9] as well as y[1, maxExponent]
-             * That will alow me to spot if their is a sequence for each x. Each sequence we find reduces the workload by 1 * maxExponent
-             * 
-             * NOTE: I decided to put the function plotting on the backburner and just do a quick test with windows calculator, up to a pretty big number.
-             * Ofcourse this is not really a mathematical proof, but it seemed like the sequences would continue infinitly
-             * 
-             * Interesting that they are repeating like this, there is probally a name for this in mathematics already.
+             * That would allow me to spot if their is a sequence for each x. Each sequence we find reduces the workload by 1 * maxExponent
+             *
+             * NOTE: I decided to put the function plotting on the back burner and just do a quick test with windows calculator, up to a pretty big number.
+             * Of course this is not really a mathematical proof, but it seemed like the sequences would continue infinitely
+             *
+             * Interesting that they are repeating like this, there is probably a name for this in mathematics already.
              */
 
             ulong[] digitCounts = new ulong[10];
