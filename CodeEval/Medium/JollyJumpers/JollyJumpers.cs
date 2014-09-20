@@ -21,20 +21,34 @@ namespace CodeEval.JollyJumpers
             string[] lines = File.ReadAllLines(args[0]);
             foreach (var line in lines)
             {
-                // TODO: Arithmetic Progressions (Gaus) will not work example:
+                // Arithmetic Progressions (Gaus) will not work example:
                 // n=4, [1,2,1,5] sum: 1+1+4 = 6   expected: (3*(4))/2 = 6
                 int[] numbers = line.Split(' ').Select(int.Parse).ToArray();
                 int n = numbers[0] - 1;
-                int expectedSum = (n * (n + 1)) / 2;
-                int sum = 0;
+                int[] counts = new int[n];
 
                 // Ignore the first number since it's the sequence count
+                bool jolly = true;
                 for (int i = 2; i < numbers.Length; i++)
                 {
-                    sum += Math.Abs(numbers[i - 1] - numbers[i]);
+                    int dif = Math.Abs(numbers[i - 1] - numbers[i]);
+                    if (dif > 0 && dif <= n)
+                    {
+                        counts[dif - 1]++;
+                        if (counts[dif - 1] > 1)
+                        {
+                            jolly = false;
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        jolly = false;
+                        break;
+                    }
                 }
 
-                Console.WriteLine(sum == expectedSum ? "Jolly" : "Not jolly");
+                Console.WriteLine(jolly ? "Jolly" : "Not jolly");
             }
         }
 
