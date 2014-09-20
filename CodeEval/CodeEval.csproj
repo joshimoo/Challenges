@@ -73,6 +73,7 @@
     <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
     <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
     <Compile Include="Medium\FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.cs" />
+    <Compile Include="Medium\JollyJumpers\JollyJumpers.cs" />
     <Compile Include="Medium\LongestLines\LongestLines.cs" />
     <Compile Include="Medium\MinimumCoins\MinimumCoins.cs" />
     <Compile Include="Medium\MthToLastElement\MthToLastElement.cs" />
