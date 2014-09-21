@@ -39,15 +39,20 @@ namespace CodeEval.PrimeNumbers
 
 
         /// <summary>
+        /// Contains all the prime numbers that where calculated so far
+        /// Make sure that it atleast has an uneven prime as a last element
+        /// </summary>
+        static List<uint> primes = new List<uint>() { 2, 3, 5, 7, 11 };
+
+        /// <summary>
         /// Simple Trial Division Algorithm, that calculates the primes upto and including n
         /// Uses a Dynamic Programming approach, since we are going to have to calculate multiple prime sequences we can reuse the prior results
         /// </summary>
-        static List<uint> primes = new List<uint>() { 2, 3 };
         static void CalculatePrimesDynamic(uint n)
         {
             // Only test the odd numbers since all others are dividable by 2.
-            // Start with the last prior calculated Prime number
-            for (uint i = primes[primes.Count - 1]; i <= n; i += 2)
+            // Start with the last prior calculated Prime number + 2
+            for (uint i = primes[primes.Count - 1] + 2; i <= n; i += 2)
             {
                 bool isPrime = true;
                 int upperLimit = (int)Math.Sqrt(i);
