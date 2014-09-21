@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace CodeEval.PrimePalindrome
 {
     /// <summary>
-    /// Sum of Primes Challenge
+    /// Prime Palindrome Challenge
     /// Difficulty: Easy
     /// Description: determine the biggest prime palindrome under 1000
     /// Problem Statement: https://www.codeeval.com/open_challenges/3/
