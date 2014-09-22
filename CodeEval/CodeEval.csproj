@@ -53,6 +53,7 @@
     <Compile Include="Easy\HiddenDigits\HiddenDigits.cs" />
     <Compile Include="Easy\LongestWord\LongestWord.cs" />
     <Compile Include="Easy\Lowercase\Lowercase.cs" />
+    <Compile Include="Easy\MixedContent\MixedContent.cs" />
     <Compile Include="Easy\NModM\NModM.cs" />
     <Compile Include="Easy\PenultimateWord\PenultimateWord.cs" />
     <Compile Include="Easy\RightmostChar\RightmostChar.cs" />
