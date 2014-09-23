@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\AgeDistribution\AgeDistribution.cs" />
+    <Compile Include="Easy\ArmstrongNumbers\ArmstrongNumbers.cs" />
     <Compile Include="Easy\ArrayAbsurdity\ArrayAbsurdity.cs" />
     <Compile Include="Easy\BitPositions\BitPositions.cs" />
     <Compile Include="Easy\CapitalizeWords\CapitalizeWords.cs" />
