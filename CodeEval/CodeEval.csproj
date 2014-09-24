@@ -53,6 +53,7 @@
     <Compile Include="Easy\EvenNumbers\EvenNumbers.cs" />
     <Compile Include="Easy\HexToDecimal\HexToDecimal.cs" />
     <Compile Include="Easy\HiddenDigits\HiddenDigits.cs" />
+    <Compile Include="Easy\LettercasePercentageRatio\LettercasePercentageRatio.cs" />
     <Compile Include="Easy\LongestWord\LongestWord.cs" />
     <Compile Include="Easy\Lowercase\Lowercase.cs" />
     <Compile Include="Easy\MixedContent\MixedContent.cs" />
