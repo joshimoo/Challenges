@@ -33,7 +33,7 @@ namespace CodeEval.PrefixExpressions
         /// <summary>
         /// Reverse Stack Approach
         /// Evaluates a prefix expression by reversly adding the operands to a stack
-        /// For an idea of how prefix expressions work: 
+        /// For an idea of how prefix expressions work: http://en.wikipedia.org/wiki/Polish_notation
         /// </summary>
         static double EvaluatePrefixExpression(string prefixExpression)
         {

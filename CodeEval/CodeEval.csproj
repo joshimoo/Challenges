@@ -71,6 +71,7 @@
     <Compile Include="Easy\RollerCoaster\RollerCoaster.cs" />
     <Compile Include="Easy\SimpleSorting\SimpleSorting.cs" />
     <Compile Include="Easy\SumOfDigits\SumOfDigits.cs" />
+    <Compile Include="Easy\TheMajorElement\TheMajorElement.cs" />
     <Compile Include="Easy\WordToDigit\WordToDigit.cs" />
     <Compile Include="Hard\DigitStatistics\DigitStatistics.cs" />
     <Compile Include="Hard\LevenshteinDistance\LevenshteinDistance.cs" />
