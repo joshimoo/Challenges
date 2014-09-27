@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 
 namespace CodeEval.TheMajorElement
@@ -18,28 +17,57 @@ namespace CodeEval.TheMajorElement
         /// <param name="args">Command line Arguments</param>
         public static void Main(string[] args)
         {
-            string[] lines = File.ReadAllLines(args[0]);
-            foreach (var line in lines)
+            using (StreamReader reader = File.OpenText(args[0]))
             {
-                string[] split = line.Split(',');
-                var counts = new Dictionary<string, int>();
-                string majorElement = string.Empty;
-
-                // TODO: Optimize memory, since we are losing lots of points there.
-                // Maybe do an inplace sort which is O(n*log(n)) them count the duplicate occurences.
-                // This is faster with O(n) but also requires additional storage
-                foreach (var s in split)
+                while (!reader.EndOfStream)
                 {
-                    if (!counts.ContainsKey(s)) { counts.Add(s, 0); }
-                    if (++counts[s] > split.Length / 2)
-                    {
-                        majorElement = s;
-                        break;
-                    }
+                    string line = reader.ReadLine();
+                    if (!String.IsNullOrEmpty(line)) { FindMajorElement(line); }
                 }
-
-                Console.WriteLine(String.IsNullOrEmpty(majorElement) ? "None" : majorElement);
             }
+        }
+
+
+        /// <summary>
+        /// Needed to write a more optimized solution 
+        /// Since the original line.split + dictionary approach took to much memory
+        /// N is in range [0, 100]
+        /// L is in range [10000, 30000]
+        /// The number of test cases <= 40 
+        /// </summary>
+        static void FindMajorElement(string line)
+        {
+            short l = 0;
+            int num = 0;
+            var counts = new short[101];
+            foreach (var c in line)
+            {
+                // Digit
+                if (c >= '0' && c <= '9') { num = num * 10 + (c - '0'); }
+                else
+                {
+                    l++;
+                    counts[num]++;
+                    num = 0;
+                }
+            }
+
+            // Save the last element
+            l++;
+            counts[num]++;
+
+            // Find the major element
+            int majorElement = -1;
+            for (int i = 0; i < counts.Length; i++)
+            {
+                if (counts[i] > l / 2)
+                {
+                    majorElement = i;
+                    break;
+                }
+            }
+
+            Console.WriteLine(majorElement < 0 ? "None" : majorElement.ToString());
         }
 
     }
