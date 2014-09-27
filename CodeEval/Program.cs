@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Easy/CompressedSequence/input.txt" };
-            CompressedSequence.CompressedSequence.Main(input);
+            var input = new string[] { "Easy/BigDigits/input.txt" };
+            BigDigits.BigDigits.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
