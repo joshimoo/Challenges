@@ -105,6 +105,8 @@
     <Compile Include="Easy\SumOfIntegers\SumOfIntegers.cs" />
     <Compile Include="Easy\SumOfPrimes\SumOfPrimes.cs" />
     <Compile Include="Medium\TrailingString\TrailingString.cs" />
+    <Compile Include="Easy\SwapElements\SwapElements.cs" />
+    <Compile Include="Easy\DataRecovery\DataRecovery.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
