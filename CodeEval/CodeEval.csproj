@@ -108,6 +108,7 @@
     <Compile Include="Easy\SwapElements\SwapElements.cs" />
     <Compile Include="Easy\DataRecovery\DataRecovery.cs" />
     <Compile Include="Easy\FindAWriter\FindAWriter.cs" />
+    <Compile Include="Easy\LowestUniqueNumber\LowestUniqueNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
