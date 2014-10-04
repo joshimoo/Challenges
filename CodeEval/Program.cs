@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Easy/MorseCode/input.txt" };
-            MorseCode.MorseCode.Main(input);
+            var input = new string[] { "Easy/CalculateDistance/input.txt" };
+            CalculateDistance.CalculateDistance.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
