@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Easy/CalculateDistance/input.txt" };
-            CalculateDistance.CalculateDistance.Main(input);
+            var input = new string[] { "Medium/ValidParentheses/input.txt" };
+            ValidParentheses.ValidParentheses.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
