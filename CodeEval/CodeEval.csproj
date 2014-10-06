@@ -111,6 +111,7 @@
     <Compile Include="Easy\LowestUniqueNumber\LowestUniqueNumber.cs" />
     <Compile Include="Easy\CalculateDistance\CalculateDistance.cs" />
     <Compile Include="Medium\ValidParentheses\ValidParentheses.cs" />
+    <Compile Include="Medium\DetectingCycles\DetectingCycles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -153,6 +154,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\CalculateDistance\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\DetectingCycles\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
