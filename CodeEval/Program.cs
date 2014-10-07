@@ -8,7 +8,7 @@ namespace CodeEval
         {
             // Test Run
             var input = new string[] { "Medium/DetectingCycles/input.txt" };
-            DetectingCycles.DetectingCycles.Main(input);
+            MultiplicationTables.MultiplicationTables.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

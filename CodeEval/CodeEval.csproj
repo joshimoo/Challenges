@@ -112,6 +112,7 @@
     <Compile Include="Easy\CalculateDistance\CalculateDistance.cs" />
     <Compile Include="Medium\ValidParentheses\ValidParentheses.cs" />
     <Compile Include="Medium\DetectingCycles\DetectingCycles.cs" />
+    <Compile Include="Easy\MultiplicationTables\MultiplicationTables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
