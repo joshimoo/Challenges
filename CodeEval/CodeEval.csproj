@@ -113,6 +113,7 @@
     <Compile Include="Medium\ValidParentheses\ValidParentheses.cs" />
     <Compile Include="Medium\DetectingCycles\DetectingCycles.cs" />
     <Compile Include="Easy\MultiplicationTables\MultiplicationTables.cs" />
+    <Compile Include="Medium\StringRotation\StringRotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
