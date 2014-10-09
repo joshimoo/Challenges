@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Medium/DetectingCycles/input.txt" };
-            MultiplicationTables.MultiplicationTables.Main(input);
+            var input = new string[] { "Medium/GameOfLife/input.txt" };
+            GameOfLife.GameOfLife.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
