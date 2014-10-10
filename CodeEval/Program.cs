@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Medium/GameOfLife/input.txt" };
-            GameOfLife.GameOfLife.Main(input);
+            var input = new string[] { "Medium/InterruptedBubbleSort/input.txt" };
+            InterruptedBubbleSort.InterruptedBubbleSort.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

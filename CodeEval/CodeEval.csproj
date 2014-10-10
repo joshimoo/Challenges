@@ -115,6 +115,7 @@
     <Compile Include="Easy\MultiplicationTables\MultiplicationTables.cs" />
     <Compile Include="Medium\StringRotation\StringRotation.cs" />
     <Compile Include="Medium\GameOfLife\GameOfLife.cs" />
+    <Compile Include="Medium\InterruptedBubbleSort\InterruptedBubbleSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -163,6 +164,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\GameOfLife\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\InterruptedBubbleSort\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
