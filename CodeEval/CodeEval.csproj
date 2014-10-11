@@ -116,6 +116,7 @@
     <Compile Include="Medium\StringRotation\StringRotation.cs" />
     <Compile Include="Medium\GameOfLife\GameOfLife.cs" />
     <Compile Include="Medium\InterruptedBubbleSort\InterruptedBubbleSort.cs" />
+    <Compile Include="Easy\HappyNumbers\HappyNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
