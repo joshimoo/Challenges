@@ -26,7 +26,7 @@ namespace CodeEval.InterruptedBubbleSort
 
                 // NOTE: using my ArraySlice class would be cleaner & nicer
                 int[] numbers = new int[split.Length - 2];
-                int iterations = int.Parse(split[split.Length - 1]);
+                ulong iterations = ulong.Parse(split[split.Length - 1]);
                 for (int i = 0; i < numbers.Length; i++)
                 {
                     numbers[i] = int.Parse(split[i]);
@@ -58,7 +58,7 @@ namespace CodeEval.InterruptedBubbleSort
         /// <summary>
         /// A BubbleSort that stops after iterations count is reached
         /// </summary>
-        static void BubbleSort<T>(IList<T> data, int iterations)
+        static void BubbleSort<T>(IList<T> data, ulong iterations)
         {
             // Comparer normally you would wrap and pass this
             IComparer<T> cmp = Comparer<T>.Default;
