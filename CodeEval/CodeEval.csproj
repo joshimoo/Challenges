@@ -118,6 +118,7 @@
     <Compile Include="Medium\InterruptedBubbleSort\InterruptedBubbleSort.cs" />
     <Compile Include="Easy\HappyNumbers\HappyNumbers.cs" />
     <Compile Include="Medium\PointInCircle\PointInCircle.cs" />
+    <Compile Include="Medium\FindASquare\FindASquare.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -172,6 +173,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\PointInCircle\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\FindASquare\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
