@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Medium/FindASquare/input.txt" };
-            FindASquare.FindASquare.Main(input);
+            var input = new string[] { "Medium/BalancedSmileys/input.txt" };
+            BalancedSmileys.BalancedSmileys.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

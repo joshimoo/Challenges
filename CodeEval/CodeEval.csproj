@@ -119,6 +119,7 @@
     <Compile Include="Easy\HappyNumbers\HappyNumbers.cs" />
     <Compile Include="Medium\PointInCircle\PointInCircle.cs" />
     <Compile Include="Medium\FindASquare\FindASquare.cs" />
+    <Compile Include="Medium\BalancedSmileys\BalancedSmileys.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -176,6 +177,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\FindASquare\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\BalancedSmileys\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
