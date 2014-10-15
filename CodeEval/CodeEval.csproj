@@ -120,6 +120,7 @@
     <Compile Include="Medium\PointInCircle\PointInCircle.cs" />
     <Compile Include="Medium\FindASquare\FindASquare.cs" />
     <Compile Include="Medium\BalancedSmileys\BalancedSmileys.cs" />
+    <Compile Include="Hard\ClosestPair\ClosestPair.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -180,6 +181,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\BalancedSmileys\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Hard\ClosestPair\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
