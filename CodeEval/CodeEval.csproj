@@ -121,6 +121,7 @@
     <Compile Include="Medium\FindASquare\FindASquare.cs" />
     <Compile Include="Medium\BalancedSmileys\BalancedSmileys.cs" />
     <Compile Include="Hard\ClosestPair\ClosestPair.cs" />
+    <Compile Include="Easy\SetIntersection\SetIntersection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
