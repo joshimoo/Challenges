@@ -123,6 +123,7 @@
     <Compile Include="Hard\ClosestPair\ClosestPair.cs" />
     <Compile Include="Easy\SetIntersection\SetIntersection.cs" />
     <Compile Include="Easy\RoadTrip\RoadTrip.cs" />
+    <Compile Include="Hard\TextDollar\TextDollar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
