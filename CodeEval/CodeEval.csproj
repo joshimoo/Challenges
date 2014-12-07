@@ -83,6 +83,7 @@
     <Compile Include="Hard\LevenshteinDistance\LevenshteinDistance.cs" />
     <Compile Include="Hard\PrefixExpressions\PrefixExpressions.cs" />
     <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
+    <Compile Include="Medium\CashRegister\CashRegister.cs" />
     <Compile Include="Medium\CountingPrimes\CountingPrimes.cs" />
     <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
     <Compile Include="Medium\FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.cs" />
