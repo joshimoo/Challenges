@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Hard/ClosestPair/input.txt" };
-            ClosestPair.ClosestPair.Main(input);
+            var input = new string[] { "Medium/Bats/input.txt" };
+            Bats.Bats.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

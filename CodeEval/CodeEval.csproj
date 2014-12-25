@@ -80,9 +80,9 @@
     <Compile Include="Easy\WithoutRepetitions\WithoutRepetitions.cs" />
     <Compile Include="Easy\WordToDigit\WordToDigit.cs" />
     <Compile Include="Hard\DigitStatistics\DigitStatistics.cs" />
-    <Compile Include="Hard\LevenshteinDistance\LevenshteinDistance.cs" />
     <Compile Include="Hard\PrefixExpressions\PrefixExpressions.cs" />
     <Compile Include="Hard\TextToNumber\TextToNumber.cs" />
+    <Compile Include="Medium\Bats\Bats.cs" />
     <Compile Include="Medium\CardNumberValidation\CardNumberValidation.cs" />
     <Compile Include="Medium\CashRegister\CashRegister.cs" />
     <Compile Include="Medium\CountingPrimes\CountingPrimes.cs" />
@@ -156,13 +156,13 @@
     <Content Include="Hard\DigitStatistics\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Hard\LevenshteinDistance\input.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Hard\PlayWithDNA\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Hard\TextToNumber\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\Bats\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\RemoveCharacters\input.txt">
