@@ -88,6 +88,7 @@
     <Compile Include="Medium\CountingPrimes\CountingPrimes.cs" />
     <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
     <Compile Include="Medium\FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.cs" />
+    <Compile Include="Medium\FlaviusJosephus\FlaviusJosephus.cs" />
     <Compile Include="Medium\GuessTheNumber\GuessTheNumber.cs" />
     <Compile Include="Medium\JollyJumpers\JollyJumpers.cs" />
     <Compile Include="Medium\Locks\Locks.cs" />
