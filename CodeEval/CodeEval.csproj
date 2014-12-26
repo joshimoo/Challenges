@@ -90,6 +90,7 @@
     <Compile Include="Medium\FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.cs" />
     <Compile Include="Medium\GuessTheNumber\GuessTheNumber.cs" />
     <Compile Include="Medium\JollyJumpers\JollyJumpers.cs" />
+    <Compile Include="Medium\Locks\Locks.cs" />
     <Compile Include="Medium\LongestLines\LongestLines.cs" />
     <Compile Include="Medium\MinimumCoins\MinimumCoins.cs" />
     <Compile Include="Medium\MthToLastElement\MthToLastElement.cs" />
@@ -163,6 +164,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\Bats\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\Locks\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\RemoveCharacters\input.txt">
