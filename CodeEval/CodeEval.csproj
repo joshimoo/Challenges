@@ -105,6 +105,7 @@
     <Compile Include="Medium\PrimeNumbers\PrimeNumbers.cs" />
     <Compile Include="Medium\ReverseGroups\ReverseGroups.cs" />
     <Compile Include="Medium\StackImplementation\StackImplementation.cs" />
+    <Compile Include="Medium\SumToZero\Locks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Medium\RemoveCharacters\RemoveCharacters.cs" />
@@ -175,6 +176,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\RemoveCharacters\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\SumToZero\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\ValidParentheses\input.txt">

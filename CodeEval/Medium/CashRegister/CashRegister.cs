@@ -7,7 +7,7 @@ namespace CodeEval.CashRegister
 {
     /// <summary>
     /// Cash Register Challenge
-    /// Difficulty: Easy
+    /// Difficulty: Medium
     /// Description: Calculate the change, that needs to be returned
     /// Problem Statement: https://www.codeeval.com/open_challenges/54/
     /// </summary>
@@ -38,16 +38,49 @@ namespace CodeEval.CashRegister
                 var split = line.Split(';');
                 double price = double.Parse(split[0]);
                 double given = double.Parse(split[1]);
-                Console.WriteLine(ReturnChange(denomTexts, denomValues, given - price));
+                //Console.WriteLine(ReturnChangeGreedy(denomTexts, denomValues, given - price));
             }
         }
+
+        static string ReturnChange(double value)
+        {
+            // Exit early
+            if (value == 0) { return "ZERO"; }
+            if (value < 0) { return "ERROR"; }
+
+
+            string[] denomFractionalTexts = new string[] { "PENNY", "NICKEL", "DIME", "QUARTER", "HALF DOLLAR" };
+            string[] denomFullTexts = new string[] { "ONE", "TWO", "FIVE", "TEN", "TWENTY", "FIFTY", "ONE HUNDRED" };
+
+            double[] denomFractionalValues = new double[] { 0.01, 0.05, 0.10, 0.25, 0.50 };
+            double[] denomFullValues = new double[] { 1, 2, 5, 10, 20, 50, 100 };
+
+            // We can split the search area into two, full and fractional part
+            double fullPart = Math.Floor(value);
+            double fractionalPart = value - fullPart;
+
+            ReturnChangeOptimal(denomFullTexts, denomFullValues, fullPart);
+            ReturnChangeOptimal(denomFractionalTexts, denomFractionalValues, fractionalPart);
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Calculate the globally optimal Change Values
+        /// Denomination values/texts need to be in ascending Order
+        /// </summary>
+        static int ReturnChangeOptimal(string[] texts, double[] values, double value)
+        {
+            throw new NotImplementedException();
+            Debug.Assert(texts.Length == values.Length);            
+        }
+
 
         /// <summary>
         /// Greedy Algorithm
         /// Return the Change Amount in the required Denominations, for the passed value
         /// Denomination values/texts need to be in ascending Order
         /// </summary>
-        static string ReturnChange(string[] texts, double[] values, double value)
+        static string ReturnChangeGreedy(string[] texts, double[] values, double value)
         {
             Debug.Assert(texts.Length == values.Length);
             if (value == 0) { return "ZERO"; }
