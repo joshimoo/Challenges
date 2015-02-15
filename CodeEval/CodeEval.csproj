@@ -65,6 +65,7 @@
     <Compile Include="Easy\PenultimateWord\PenultimateWord.cs" />
     <Compile Include="Easy\RightmostChar\RightmostChar.cs" />
     <Compile Include="Easy\SelfDescribingNumbers\SelfDescribingNumbers.cs" />
+    <Compile Include="Easy\SlangFlavor\SlangFlavor.cs" />
     <Compile Include="Easy\SwapCase\SwapCase.cs" />
     <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
     <Compile Include="Easy\FileSize\FileSize.cs" />
