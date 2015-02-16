@@ -58,6 +58,7 @@
     <Compile Include="Easy\LettercasePercentageRatio\LettercasePercentageRatio.cs" />
     <Compile Include="Easy\LongestWord\LongestWord.cs" />
     <Compile Include="Easy\Lowercase\Lowercase.cs" />
+    <Compile Include="Easy\MatrixRotation\MatrixRotation.cs" />
     <Compile Include="Easy\MixedContent\MixedContent.cs" />
     <Compile Include="Easy\MorseCode\MorseCode.cs" />
     <Compile Include="Easy\NiceAngles\NiceAngles.cs" />
@@ -148,6 +149,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\JugglingWithZeros\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Easy\MatrixRotation\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\MorseCode\input.txt">
