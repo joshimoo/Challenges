@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Easy/MatrixRotation/input.txt" };
-            MatrixRotation.MatrixRotation.Main(input);
+            var input = new string[] { "Easy/QueryBoard/input.txt" };
+            QueryBoard.QueryBoard.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

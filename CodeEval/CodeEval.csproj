@@ -64,6 +64,7 @@
     <Compile Include="Easy\NiceAngles\NiceAngles.cs" />
     <Compile Include="Easy\NModM\NModM.cs" />
     <Compile Include="Easy\PenultimateWord\PenultimateWord.cs" />
+    <Compile Include="Easy\QueryBoard\QueryBoard.cs" />
     <Compile Include="Easy\RightmostChar\RightmostChar.cs" />
     <Compile Include="Easy\SelfDescribingNumbers\SelfDescribingNumbers.cs" />
     <Compile Include="Easy\SlangFlavor\SlangFlavor.cs" />
@@ -158,6 +159,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\MultiplyLists\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Easy\QueryBoard\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\SimpleSorting\input.txt">
