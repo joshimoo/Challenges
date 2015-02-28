@@ -98,6 +98,7 @@
     <Compile Include="Medium\JollyJumpers\JollyJumpers.cs" />
     <Compile Include="Medium\Locks\Locks.cs" />
     <Compile Include="Medium\LongestLines\LongestLines.cs" />
+    <Compile Include="Medium\LowestCommonAncestor\LowestCommonAncestor.cs" />
     <Compile Include="Medium\MinimumCoins\MinimumCoins.cs" />
     <Compile Include="Medium\MthToLastElement\MthToLastElement.cs" />
     <Compile Include="Medium\NumberOfOnes\NumberOfOnes.cs" />
@@ -184,6 +185,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\Locks\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\LowestCommonAncestor\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\PascalsTriangle\input.txt">
