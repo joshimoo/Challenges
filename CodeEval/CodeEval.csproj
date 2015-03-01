@@ -94,6 +94,7 @@
     <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
     <Compile Include="Medium\FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.cs" />
     <Compile Include="Medium\FlaviusJosephus\FlaviusJosephus.cs" />
+    <Compile Include="Medium\GronsfeldCipher\GronsfeldCipher.cs" />
     <Compile Include="Medium\GuessTheNumber\GuessTheNumber.cs" />
     <Compile Include="Medium\JollyJumpers\JollyJumpers.cs" />
     <Compile Include="Medium\Locks\Locks.cs" />
@@ -182,6 +183,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\Bats\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\GronsfeldCipher\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\Locks\input.txt">
