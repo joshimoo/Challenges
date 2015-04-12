@@ -53,6 +53,7 @@
     <Compile Include="Easy\CompressedSequence\CompressedSequence.cs" />
     <Compile Include="Easy\Endianness\Endianness.cs" />
     <Compile Include="Easy\EvenNumbers\EvenNumbers.cs" />
+    <Compile Include="Easy\MinimumDistance\MinimumDistance.cs" />
     <Compile Include="Easy\HexToDecimal\HexToDecimal.cs" />
     <Compile Include="Easy\HiddenDigits\HiddenDigits.cs" />
     <Compile Include="Easy\KnightMoves\KnightMoves.cs" />
