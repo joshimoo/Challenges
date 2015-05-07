@@ -50,6 +50,7 @@
     <Compile Include="Easy\BigDigits\BigDigits.cs" />
     <Compile Include="Easy\BitPositions\BitPositions.cs" />
     <Compile Include="Easy\CapitalizeWords\CapitalizeWords.cs" />
+    <Compile Include="Easy\ComparePoints\ComparePoints.cs" />
     <Compile Include="Easy\CompressedSequence\CompressedSequence.cs" />
     <Compile Include="Easy\Endianness\Endianness.cs" />
     <Compile Include="Easy\EvenNumbers\EvenNumbers.cs" />
