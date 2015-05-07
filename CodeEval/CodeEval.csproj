@@ -142,6 +142,7 @@
     <Compile Include="Easy\RoadTrip\RoadTrip.cs" />
     <Compile Include="Hard\TextDollar\TextDollar.cs" />
     <Compile Include="Easy\DeltaTime\DeltaTime.cs" />
+    <Compile Include="Easy\Details\Details.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -153,6 +154,7 @@
     <Content Include="Easy\CompressedSequence\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Easy\Details\input.txt" />
     <Content Include="Easy\JugglingWithZeros\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
