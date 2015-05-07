@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Medium/GronsfeldCipher/input.txt" };
-            GronsfeldCipher.GronsfeldCipher.Main(input);
+            var input = new string[] { "Medium/ChainInspection/input.txt" };
+            ChainInspection.ChainInspection.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();

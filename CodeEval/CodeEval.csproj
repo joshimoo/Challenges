@@ -92,6 +92,7 @@
     <Compile Include="Medium\Bats\Bats.cs" />
     <Compile Include="Medium\CardNumberValidation\CardNumberValidation.cs" />
     <Compile Include="Medium\CashRegister\CashRegister.cs" />
+    <Compile Include="Medium\ChainInspection\ChainInspection.cs" />
     <Compile Include="Medium\CountingPrimes\CountingPrimes.cs" />
     <Compile Include="Medium\DecimalToBinary\DecimalToBinary.cs" />
     <Compile Include="Medium\FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.cs" />
@@ -187,6 +188,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\Bats\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Medium\ChainInspection\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Medium\GronsfeldCipher\input.txt">
