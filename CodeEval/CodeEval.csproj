@@ -81,6 +81,7 @@
     <Compile Include="Easy\RollerCoaster\RollerCoaster.cs" />
     <Compile Include="Easy\SimpleSorting\SimpleSorting.cs" />
     <Compile Include="Easy\SumOfDigits\SumOfDigits.cs" />
+    <Compile Include="Easy\SwapNumbers\SwapNumbers.cs" />
     <Compile Include="Easy\TheMajorElement\TheMajorElement.cs" />
     <Compile Include="Easy\UniqueElements\UniqueElements.cs" />
     <Compile Include="Easy\WithoutRepetitions\WithoutRepetitions.cs" />
