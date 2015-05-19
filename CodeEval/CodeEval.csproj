@@ -71,6 +71,7 @@
     <Compile Include="Easy\RightmostChar\RightmostChar.cs" />
     <Compile Include="Easy\SelfDescribingNumbers\SelfDescribingNumbers.cs" />
     <Compile Include="Easy\SlangFlavor\SlangFlavor.cs" />
+    <Compile Include="Easy\SplitTheNumber\SplitTheNumber.cs" />
     <Compile Include="Easy\SwapCase\SwapCase.cs" />
     <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
     <Compile Include="Easy\FileSize\FileSize.cs" />
@@ -174,6 +175,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\SimpleSorting\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Easy\SplitTheNumber\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Hard\DigitStatistics\input.txt">

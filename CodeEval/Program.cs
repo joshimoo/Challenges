@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Medium/ChainInspection/input.txt" };
-            ChainInspection.ChainInspection.Main(input);
+            var input = new string[] { "Easy/SplitTheNumber/input.txt" };
+            SplitTheNumber.SplitTheNumber.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
