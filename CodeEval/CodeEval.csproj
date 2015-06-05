@@ -72,6 +72,7 @@
     <Compile Include="Easy\SelfDescribingNumbers\SelfDescribingNumbers.cs" />
     <Compile Include="Easy\SlangFlavor\SlangFlavor.cs" />
     <Compile Include="Easy\SplitTheNumber\SplitTheNumber.cs" />
+    <Compile Include="Easy\StringMask\StringMask.cs" />
     <Compile Include="Easy\SwapCase\SwapCase.cs" />
     <Compile Include="Easy\FibonacciSeries\FibonacciSeries.cs" />
     <Compile Include="Easy\FileSize\FileSize.cs" />
