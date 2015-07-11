@@ -1,15 +1,15 @@
 ﻿using System;
 using System.IO;
 
-namespace CodeEval.SumOfIntegers
+namespace CodeEval.SumOfIntegersFromFile
 {
     /// <summary>
-    /// Sum of Integers Challenge
+    /// Sum of integers from file Challenge
     /// Difficulty: Easy
     /// Description: Print out the sum of integers read from a file
     /// Problem Statement: https://www.codeeval.com/open_challenges/24/
     /// </summary>
-    class SumOfIntegers
+    class SumOfIntegersFromFile
     {
         /// <summary>
         /// Entry Point for the Challenge
