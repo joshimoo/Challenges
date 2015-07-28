@@ -50,6 +50,7 @@
     <Compile Include="Easy\BigDigits\BigDigits.cs" />
     <Compile Include="Easy\BitPositions\BitPositions.cs" />
     <Compile Include="Easy\CapitalizeWords\CapitalizeWords.cs" />
+    <Compile Include="Easy\RacingChars\RacingChars.cs" />
     <Compile Include="Easy\StepwiseWord\StepwiseWord.cs" />
     <Compile Include="Easy\CleanUpTheWords\CleanUpTheWords.cs" />
     <Compile Include="Easy\ComparePoints\ComparePoints.cs" />
@@ -178,6 +179,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\QueryBoard\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Easy\RacingChars\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Easy\SimpleSorting\input.txt">
