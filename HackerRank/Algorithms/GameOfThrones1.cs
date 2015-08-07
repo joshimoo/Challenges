@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace HackerRank.Algorithms.Warmup.GameOfThrones1
+namespace HackerRank.Algorithms
 {
     /// <summary>
     /// Game of Thrones 1 Challenge

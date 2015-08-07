@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 
-namespace HackerRank.Algorithms.Warmup.FindDigits
+namespace HackerRank.Algorithms
 {
     /// <summary>
     /// Find Digits Challenge

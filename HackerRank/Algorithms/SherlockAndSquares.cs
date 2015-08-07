@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace HackerRank.Algorithms.Warmup.SherlockAndSquares
+namespace HackerRank.Algorithms
 {
     /// <summary>
     /// Sherlock and Squares Challenge
