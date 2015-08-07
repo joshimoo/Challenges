@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\SolveMeFirst.cs" />
     <Compile Include="Algorithms\FindDigits.cs" />
     <Compile Include="Algorithms\GameOfThrones1.cs" />
     <Compile Include="Algorithms\IsFibo.cs" />
