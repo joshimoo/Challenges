@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\AVeryBigSum.cs" />
+    <Compile Include="Algorithms\Staircase.cs" />
     <Compile Include="Algorithms\PlusMinus.cs" />
     <Compile Include="Algorithms\DiagonalDifference.cs" />
     <Compile Include="Algorithms\SolveMeSecond.cs" />
