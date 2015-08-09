@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Algorithms\AVeryBigSum.cs" />
     <Compile Include="Algorithms\CaesarCipher.cs" />
+    <Compile Include="Algorithms\AngryProfessor.cs" />
     <Compile Include="Algorithms\Pangrams.cs" />
     <Compile Include="Algorithms\TimeConversion.cs" />
     <Compile Include="Algorithms\Staircase.cs" />
