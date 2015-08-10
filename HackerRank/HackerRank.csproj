@@ -48,6 +48,7 @@
     <Compile Include="Algorithms\Warmup\CaesarCipher.cs" />
     <Compile Include="Algorithms\Implementation\AngryProfessor.cs" />
     <Compile Include="Algorithms\Implementation\SongOfPi.cs" />
+    <Compile Include="Algorithms\Sorting\IntroToTutorialChallenges.cs" />
     <Compile Include="Algorithms\Implementation\UtopianTree.cs" />
     <Compile Include="Algorithms\Strings\Pangrams.cs" />
     <Compile Include="Algorithms\Warmup\TimeConversion.cs" />
