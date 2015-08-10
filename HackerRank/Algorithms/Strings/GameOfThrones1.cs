@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace HackerRank.Algorithms
+namespace HackerRank.Algorithms.Strings
 {
     /// <summary>
     /// Game of Thrones 1 Challenge

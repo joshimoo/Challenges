@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace HackerRank.Algorithms
+namespace HackerRank.Mathematics.Fundamentals
 {
     /// <summary>
     /// Is Fibo Challenge

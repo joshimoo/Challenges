@@ -44,29 +44,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\AVeryBigSum.cs" />
-    <Compile Include="Algorithms\CaesarCipher.cs" />
-    <Compile Include="Algorithms\AngryProfessor.cs" />
-    <Compile Include="Algorithms\SongOfPi.cs" />
-    <Compile Include="Algorithms\UtopianTree.cs" />
-    <Compile Include="Algorithms\Pangrams.cs" />
-    <Compile Include="Algorithms\TimeConversion.cs" />
-    <Compile Include="Algorithms\Staircase.cs" />
-    <Compile Include="Algorithms\PlusMinus.cs" />
-    <Compile Include="Algorithms\DiagonalDifference.cs" />
-    <Compile Include="Algorithms\SolveMeSecond.cs" />
-    <Compile Include="Algorithms\SolveMeFirst.cs" />
-    <Compile Include="Algorithms\FindDigits.cs" />
-    <Compile Include="Algorithms\GameOfThrones1.cs" />
-    <Compile Include="Algorithms\IsFibo.cs" />
-    <Compile Include="Algorithms\SherlockAndArray.cs" />
-    <Compile Include="Algorithms\SherlockAndSquares.cs" />
+    <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
+    <Compile Include="Algorithms\Warmup\CaesarCipher.cs" />
+    <Compile Include="Algorithms\Implementation\AngryProfessor.cs" />
+    <Compile Include="Algorithms\Implementation\SongOfPi.cs" />
+    <Compile Include="Algorithms\Implementation\UtopianTree.cs" />
+    <Compile Include="Algorithms\Strings\Pangrams.cs" />
+    <Compile Include="Algorithms\Warmup\TimeConversion.cs" />
+    <Compile Include="Algorithms\Warmup\Staircase.cs" />
+    <Compile Include="Algorithms\Warmup\PlusMinus.cs" />
+    <Compile Include="Algorithms\Warmup\DiagonalDifference.cs" />
+    <Compile Include="Algorithms\Warmup\SolveMeSecond.cs" />
+    <Compile Include="Algorithms\Warmup\SolveMeFirst.cs" />
+    <Compile Include="Algorithms\Implementation\FindDigits.cs" />
+    <Compile Include="Algorithms\Strings\GameOfThrones1.cs" />
+    <Compile Include="Mathematics\Fundamentals\IsFibo.cs" />
+    <Compile Include="Algorithms\Search\SherlockAndArray.cs" />
+    <Compile Include="Algorithms\Implementation\SherlockAndSquares.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

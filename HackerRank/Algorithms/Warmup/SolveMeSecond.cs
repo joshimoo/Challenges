@@ -1,6 +1,6 @@
 using System;
 
-namespace HackerRank.Algorithms
+namespace HackerRank.Algorithms.Warmup
 {
     /// <summary>
     /// Solve Me Second Challenge

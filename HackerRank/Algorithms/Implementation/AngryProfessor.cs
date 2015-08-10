@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace HackerRank.Algorithms
+namespace HackerRank.Algorithms.Implementation
 {
     /// <summary>
     /// Angry Professor Challenge
