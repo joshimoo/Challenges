@@ -59,6 +59,7 @@
     <Compile Include="Algorithms\Warmup\SolveMeFirst.cs" />
     <Compile Include="Algorithms\Implementation\FindDigits.cs" />
     <Compile Include="Algorithms\Strings\GameOfThrones1.cs" />
+    <Compile Include="Greedy\GridChallenge.cs" />
     <Compile Include="Mathematics\Fundamentals\IsFibo.cs" />
     <Compile Include="Algorithms\Search\SherlockAndArray.cs" />
     <Compile Include="Algorithms\Implementation\SherlockAndSquares.cs" />
