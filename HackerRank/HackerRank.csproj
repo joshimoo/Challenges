@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
     <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
     <Compile Include="Algorithms\Warmup\CaesarCipher.cs" />
     <Compile Include="Algorithms\Implementation\AngryProfessor.cs" />
