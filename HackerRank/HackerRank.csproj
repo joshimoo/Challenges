@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\BitManipulation\FlippingBits.cs" />
     <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
     <Compile Include="Algorithms\Implementation\ServiceLane.cs" />
     <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
