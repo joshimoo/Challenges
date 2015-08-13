@@ -1,6 +1,6 @@
 using System;
 
-namespace HackerRank.Algorithms
+namespace HackerRank.Algorithms.Implementation
 {
     /// <summary>
     /// Utopian Tree Challenge

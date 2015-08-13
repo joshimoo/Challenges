@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace HackerRank.Algorithms
+namespace HackerRank.Algorithms.Implementation
 {
     /// <summary>
     /// Sherlock and Squares Challenge
