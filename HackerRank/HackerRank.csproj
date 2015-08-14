@@ -47,6 +47,7 @@
     <Compile Include="Algorithms\BitManipulation\FlippingBits.cs" />
     <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
     <Compile Include="Algorithms\Implementation\ServiceLane.cs" />
+    <Compile Include="Algorithms\Search\IceCreamParlor.cs" />
     <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
     <Compile Include="Algorithms\Warmup\CaesarCipher.cs" />
     <Compile Include="Algorithms\Implementation\AngryProfessor.cs" />
