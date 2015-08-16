@@ -57,6 +57,7 @@
     <Compile Include="Algorithms\Sorting\IntroToTutorialChallenges.cs" />
     <Compile Include="Algorithms\Implementation\UtopianTree.cs" />
     <Compile Include="Algorithms\Strings\Pangrams.cs" />
+    <Compile Include="Algorithms\Warmup\SimpleArraySum.cs" />
     <Compile Include="Algorithms\Warmup\TimeConversion.cs" />
     <Compile Include="Algorithms\Warmup\Staircase.cs" />
     <Compile Include="Algorithms\Warmup\PlusMinus.cs" />
