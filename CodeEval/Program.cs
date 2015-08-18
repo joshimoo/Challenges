@@ -7,8 +7,8 @@ namespace CodeEval
         static void Main(string[] args)
         {
             // Test Run
-            var input = new string[] { "Easy/FindTheHighestScore/input.txt" };
-            FindTheHighestScore.FindTheHighestScore.Main(input);
+            var input = new string[] { "Medium/MagicNumbers/input.txt" };
+            MagicNumbers.MagicNumbers.Main(input);
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadLine();
