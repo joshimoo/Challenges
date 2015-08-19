@@ -52,6 +52,7 @@
     <Compile Include="Algorithms\Implementation\CutTheSticks.cs" />
     <Compile Include="Algorithms\Implementation\TaumAndBDay.cs" />
     <Compile Include="Algorithms\Search\IceCreamParlor.cs" />
+    <Compile Include="Algorithms\Strings\FunnyString.cs" />
     <Compile Include="Algorithms\Strings\AlternatingCharacters.cs" />
     <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
     <Compile Include="Algorithms\Warmup\CaesarCipher.cs" />
