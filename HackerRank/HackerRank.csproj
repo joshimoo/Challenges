@@ -72,6 +72,7 @@
     <Compile Include="Algorithms\Strings\GameOfThrones1.cs" />
     <Compile Include="Algorithms\Greedy\TwoArrays.cs" />
     <Compile Include="Algorithms\Greedy\GridChallenge.cs" />
+    <Compile Include="Competitions\101 Hack Aug 2015\BagsOfApples.cs" />
     <Compile Include="Mathematics\Fundamentals\IsFibo.cs" />
     <Compile Include="Algorithms\Search\SherlockAndArray.cs" />
     <Compile Include="Algorithms\Implementation\SherlockAndSquares.cs" />
