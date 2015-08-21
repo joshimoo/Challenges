@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Algorithms\BitManipulation\FlippingBits.cs" />
     <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
+    <Compile Include="Algorithms\DynamicProgramming\TheMaximumSubarray.cs" />
     <Compile Include="Algorithms\Implementation\CavityMap.cs" />
     <Compile Include="Algorithms\Implementation\ServiceLane.cs" />
     <Compile Include="Algorithms\Implementation\ChocolateFeast.cs" />
