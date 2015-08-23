@@ -55,6 +55,7 @@
     <Compile Include="Algorithms\Implementation\CutTheSticks.cs" />
     <Compile Include="Algorithms\Implementation\TaumAndBDay.cs" />
     <Compile Include="Algorithms\Search\IceCreamParlor.cs" />
+    <Compile Include="Algorithms\Strings\MakeItAnagram.cs" />
     <Compile Include="Algorithms\Strings\Anagram.cs" />
     <Compile Include="Algorithms\Strings\FunnyString.cs" />
     <Compile Include="Algorithms\Strings\AlternatingCharacters.cs" />
