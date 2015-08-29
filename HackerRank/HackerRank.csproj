@@ -56,6 +56,7 @@
     <Compile Include="Algorithms\Implementation\ManasaAndStones.cs" />
     <Compile Include="Algorithms\Implementation\TaumAndBDay.cs" />
     <Compile Include="Algorithms\Search\IceCreamParlor.cs" />
+    <Compile Include="Algorithms\Strings\TwoStrings.cs" />
     <Compile Include="Algorithms\Strings\MakeItAnagram.cs" />
     <Compile Include="Algorithms\Strings\Anagram.cs" />
     <Compile Include="Algorithms\Strings\FunnyString.cs" />
